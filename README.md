@@ -1,4 +1,4 @@
-# gettingStartedWithGO-CourseraSolutons
+# Getting Started with GO - CourseraSolutions
 
 ![](https://www.vertica.com/wp-content/uploads/2019/07/Golang.png)
 
@@ -15,6 +15,7 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 ### 1. Getting Started with Go
 * Week 1
 	* [Quiz 1]()
+	* [Programming Assignement: Hello World]()
 	
 
 ### Author
