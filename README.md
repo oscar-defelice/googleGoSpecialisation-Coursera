@@ -1,4 +1,7 @@
 # gettingStartedWithGO-CourseraSolutons
+
+![](https://www.vertica.com/wp-content/uploads/2019/07/Golang.png)
+
 A repository to collect my materials for the GOlang specialisation on Coursera. 
 
 ### Reminder
