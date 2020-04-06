@@ -14,8 +14,8 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 
 ### 1. Getting Started with Go
 * Week 1
-	* [Quiz 1]()
-	* [Programming Assignment: Hello World]()
+	* [Quiz 1](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/QuizSolution.md)
+	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/HelloWorld.go)
 
 
 ### Author
