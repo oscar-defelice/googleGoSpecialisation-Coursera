@@ -17,6 +17,8 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 	* [Quiz 1](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/QuizSolution.md)
 	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/HelloWorld.go)
 
+* Week 2
+	
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)

@@ -1,10 +1,13 @@
 // Hello World program in go
 
-package main   // compulsory package,
-               // the only one generating an executable
+package main
+// Compulsory package,
+// the only one generating an executable
 
-import "fmt"   // format library, including I/O methods
+import "fmt" // Format library, including I/O methods
 
 func main() {
-  fmt.Printf("Hello, World!")
+  // Script to print on screen the string
+  // Hello, World!
+	fmt.Printf("Hello, World!")
 }
