@@ -82,7 +82,7 @@ func main() {
       if err != nil {
           log.Fatal("Error parsing FloatingNumber: ", err)
       } else {
-          fmt.Println(fmt.Sprintf("Integer parsed: %d", integer))
+          fmt.Println(fmt.Sprintf("Truncated Integer: %d", integer))
       }
   }
 }
