@@ -14,11 +14,12 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 
 ### 1. Getting Started with Go
 * Week 1
-	* [Quiz 1](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/QuizSolution.md)
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/QuizSolution.md)
 	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/HelloWorld.go)
 
 * Week 2
-	
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week2/QuizSolution.md)
+	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week2/.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
