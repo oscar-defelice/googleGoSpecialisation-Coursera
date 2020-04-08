@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-  // Script to read a floating point number,
+	// Script to read a floating point number,
 	// to calculate its truncation and print it on screen.
 	var number int
 
