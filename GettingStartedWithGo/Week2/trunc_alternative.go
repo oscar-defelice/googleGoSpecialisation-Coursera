@@ -77,7 +77,7 @@ func main() {
 	if err != nil {
   	log.Fatal("Error reading text from console: ", err)
   } else {
-      var integer, err = GetIntegerFromFloatingNumber(strings.Trim(number, "\n"))
+      var integer, err = Truncate(strings.Trim(number, "\n"))
 
       if err != nil {
           log.Fatal("Error parsing FloatingNumber: ", err)
