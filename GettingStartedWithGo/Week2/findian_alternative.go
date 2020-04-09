@@ -14,10 +14,10 @@ characters are upper-case or lower-case.
 Disclaimer: This version is NOT the required solution for the
 course assignement.
 
-I just wrote it to exercise my self on a slightly more complicated
+I just wrote it to exercise myself on a slightly more complicated
 problem, involving multiple functions and libraries.
 
-Created by Oscar de Felice on 08/04/2020.
+Created by Oscar de Felice on 09/04/2020.
 Copyright © 2020 Oscar de Felice.
 
 <oscar.defelice@gmail.com>

@@ -15,7 +15,7 @@ trunc(10.9) = 10
 Disclaimer: This version is NOT the required solution for the
 course assignement.
 
-I just wrote it to exercise my self on a slightly more complicated
+I just wrote it to exercise myself on a slightly more complicated
 problem, involving multiple functions and libraries.
 
 Created by Oscar de Felice on 08/04/2020.
