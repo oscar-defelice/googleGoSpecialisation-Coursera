@@ -39,10 +39,10 @@ import (
   "strings" // Library to manipulate strings
 )
 
+// The functions return a string as readed from the console
+// input.
+// It eventually returns an error, trough an error code.
 func ReadTextFromConsole(message string) (string, error) {
-	// The functions return a string as readed from the console
-	// input.
-	// It eventually returns an error, trough an error code.
   reader := bufio.NewReader(os.Stdin)
 
   fmt.Print(message)
@@ -67,9 +67,9 @@ func Truncate(number string) (int64, error) {
 	 return strconv.ParseInt(matched[1], 10, 64)
 }
 
+// Script to read a floating point number,
+// to calculate its truncation and print it on screen.
 func main() {
-  // Script to read a floating point number,
-	// to calculate its truncation and print it on screen.
   var err error
 
 	number, err := ReadTextFromConsole("floating point number: ")

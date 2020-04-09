@@ -16,13 +16,13 @@ import(
     "strings"
   )
 
+// Script to read a string from command line.
+// It searches for the substrings 'i', 'a', 'n'
+// The script prints 'Found!' if the strings
+// starts with 'i', ends with 'n' and contains 'a',
+// otherwise it prints 'Not Found!'
+// The script is not case-sensitive.
 func main() {
-	// Script to read a string from command line.
-	// It searches for the substrings 'i', 'a', 'n'
-  // The script prints 'Found!' if the strings
-  // starts with 'i', ends with 'n' and contains 'a',
-  // otherwise it prints 'Not Found!'
-  // The script is not case-sensitive.
 	var str string
   var prefix, suffix string = "i", "n"
   var inner string = "a"

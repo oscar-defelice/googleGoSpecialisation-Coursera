@@ -18,9 +18,10 @@ import (
 	"fmt" 		// Format library, including I/O methods
 )
 
+// Script to read a floating point number,
+// to calculate its truncation and print it on screen.
 func main() {
-	// Script to read a floating point number,
-	// to calculate its truncation and print it on screen.
+
 	var number int
 
 	fmt.Println("Please, enter a floating point number: ")
