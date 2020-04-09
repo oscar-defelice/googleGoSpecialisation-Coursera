@@ -19,7 +19,7 @@ I just wrote it to exercise my self on a slightly more complicated
 problem, involving multiple functions and libraries.
 
 Created by Oscar de Felice on 08/04/2020.
-Copyright © 2019 Oscar de Felice.
+Copyright © 2020 Oscar de Felice.
 
 <oscar.defelice@gmail.com>
 
