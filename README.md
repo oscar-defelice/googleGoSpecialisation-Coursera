@@ -31,6 +31,5 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/trunc.go)
 	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/findian.go)
 
-
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
