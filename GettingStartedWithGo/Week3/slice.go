@@ -88,7 +88,10 @@ func insertionSortR(numbers []int, n int){
   }
 }
 
-// Script
+// Script which prompts the user to enter integers and stores
+// the integers in a sorted slice.
+// The program prints on screen the sorted slice.
+// It keeps going until the user enters X to exit.
 func main() {
   slice := make([]int, 0, 3) // create an empty integer slice of size (length) 3
   var input string
