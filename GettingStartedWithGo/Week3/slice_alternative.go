@@ -60,7 +60,7 @@ func main() {
 			}
 			sorted := make([]int, len(storage))
 			copy(sorted, storage)
-			sort.Ints(sorted)
+			sort.Ints(sorted) // sort the slice
 			fmt.Println(sorted)
 			counter++
 		}
