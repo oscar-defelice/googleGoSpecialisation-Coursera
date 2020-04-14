@@ -23,8 +23,7 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 
 * Week 3
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/QuizSolution.md)
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/trunc.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/findian.go)
+	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/slice.go)
 
 * Week 4
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/QuizSolution.md)
