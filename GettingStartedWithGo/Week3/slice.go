@@ -93,8 +93,9 @@ func insertionSortR(numbers []int, n int){
 // The program prints on screen the sorted slice.
 // It keeps going until the user enters X to exit.
 func main() {
-  slice := make([]int, 0, 3) // create an empty integer slice of size (length) 3
+  slice := make([]int, 3) // create an empty integer slice of size (length) 3
   var input string
+  var counter int
 
   for input != "X" {
     if input, err := ReadTextFromConsole("Insert an integer or X to exit: "); err != nil {
@@ -112,10 +113,19 @@ func main() {
 				      fmt.Println("Input string is not an integer number. Please try again.")
 				      continue
 			  } else {
-				      fmt.Println("Input string is an integer number: ", number)
+				      fmt.Println("Good! Input string is an integer number: ", number)
+
+              if counter < 3 {
+                slice[counter] = number
+                fmt.Println("Slice not sorted yet:", slice)
+                counter++ // increasing the counter
+                continue
+              }
               slice = append(slice, number)
 				      insertionSort(slice)
 				      fmt.Println("Slice in the (increasing) order:", slice)
+
+              counter++ // increasing the counter
 			    }
       }
     }
