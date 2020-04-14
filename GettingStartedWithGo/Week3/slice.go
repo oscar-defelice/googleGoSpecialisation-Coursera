@@ -93,7 +93,7 @@ func insertionSortR(numbers []int, n int){
 // The program prints on screen the sorted slice.
 // It keeps going until the user enters X to exit.
 func main() {
-  slice := make([]int, 0, 3) // create an empty integer slice of size (length) 3
+  slice := make([]int, 3) // create an empty integer slice of size (length) 3
   var input string
   var counter int
 
