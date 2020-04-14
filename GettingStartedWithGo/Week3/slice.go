@@ -68,7 +68,7 @@ func insertionSort(numbers []int) {
       numbers[j+1] = numbers[j] // insert the element in the right place
       j = j-1                   // swapping elements when necessary.
     }
-    tmp = numbers[j+1] // assign tmp to the next element
+    numbers[j+1] = tmp  // assign tmp to the next element
   }
 }
 
