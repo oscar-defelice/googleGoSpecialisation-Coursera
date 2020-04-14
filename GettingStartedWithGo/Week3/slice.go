@@ -109,7 +109,7 @@ func main() {
   			}
 
         if number, err := strconv.Atoi(input); err != nil {
-				      fmt.Println("Input string is not an integer number")
+				      fmt.Println("Input string is not an integer number. Please try again.")
 				      continue
 			  } else {
 				      fmt.Println("Input string is an integer number: ", number)
