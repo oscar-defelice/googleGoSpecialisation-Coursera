@@ -123,7 +123,7 @@ func main() {
 				      insertionSort(slice)
 				      fmt.Println("Slice in the (increasing) order:", slice)
 
-              counter++
+              counter++ // increase the counter
 			    }
       }
     }
