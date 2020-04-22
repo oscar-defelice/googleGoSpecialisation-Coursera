@@ -26,9 +26,8 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/slice.go)
 
 * Week 4
-	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/QuizSolution.md)
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/trunc.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/findian.go)
+	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/makejson.go)
+	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/read.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
