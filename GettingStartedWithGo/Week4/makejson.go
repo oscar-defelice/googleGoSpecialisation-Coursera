@@ -7,6 +7,18 @@ Your program should use Marshal() to create a JSON object
 from the map, and then your program should print the JSON object.
 */
 
+/*
+
+Disclaimer: This version might be the required solution for the
+course assignement.
+
+Created by Oscar de Felice on 22/04/2020.
+Copyright © 2020 Oscar de Felice.
+
+<oscar.defelice@gmail.com>
+
+*/
+
 package main
 // Compulsory package,
 // the only one generating an executable
