@@ -13,21 +13,40 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 
 ### 1. Getting Started with Go
 * Week 1
-	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/QuizSolution.md)
-	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week1/HelloWorld.go)
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week1/QuizSolution.md)
+	* [Programming Assignment: Hello World](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week1/HelloWorld.go)
 
 * Week 2
-	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week2/QuizSolution.md)
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week2/trunc.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week2/findian.go)
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/QuizSolution.md)
+	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/trunc.go)
+	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/findian.go)
 
 * Week 3
-	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/QuizSolution.md)
-	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week3/slice.go)
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/QuizSolution.md)
+	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/slice.go)
 
 * Week 4
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/makejson.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/GettingStartedWithGo/Week4/read.go)
+	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/makejson.go)
+	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/read.go)
+
+### 2. Functions, Methods, and Interfaces in Go
+	* Week 1
+		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week1/QuizSolutions.md)
+		* [Programming Assignment: Bubble Sort](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week1/BubbleSort.go)
+
+	* Week 2
+		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week2/QuizSolutions.md)
+		* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/trunc.go)
+		* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/findian.go)
+
+	* Week 3
+		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week3/QuizSolutions.md)
+		* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/slice.go)
+
+	* Week 4
+		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week4/QuizSolutions.md)
+		* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/makejson.go)
+		* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/read.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
