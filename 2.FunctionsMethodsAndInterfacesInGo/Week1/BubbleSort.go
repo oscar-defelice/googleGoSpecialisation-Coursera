@@ -23,7 +23,7 @@ package main
 import (
   "bufio"   // Library to implement buffered I/O
 	"fmt"     // Format library, including I/O methods
-	"sort"    // Sort library provides primitives for sorting slices.
+  "os"      // Interface to operating system functionality
 	"strconv" // Conversion type from/to strings
   "strings" // Library to manipulate strings
 )
@@ -46,6 +46,7 @@ func main () {
     values = append(values, n)
   }
   BubbleSort(values)
+  fmt.Println("Sorted list of numbers:")
   fmt.Println(values)
 }
 
