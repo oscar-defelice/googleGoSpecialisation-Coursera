@@ -22,9 +22,9 @@ package main
 
 import (
   "bufio"   // Library to implement buffered I/O
-	"fmt"     // Format library, including I/O methods
+  "fmt"     // Format library, including I/O methods
   "os"      // Interface to operating system functionality
-	"strconv" // Conversion type from/to strings
+  "strconv" // Conversion type from/to strings
   "strings" // Library to manipulate strings
 )
 
