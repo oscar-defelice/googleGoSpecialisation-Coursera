@@ -32,19 +32,7 @@ import (
 // the integers in a slice.
 // The program sorts slice and prints on screen the sorted slice.
 func main () {
-  fmt.Println("Please input numbers(separate with space):")
-  br := bufio.NewReader(os.Stdin)
-  a, _, _ := br.ReadLine() // ReadLine returns
-                           // the str containing the line,
-                           // the isPrefix attribute will be false when
-                           // returning the last fragment of the line.
-                           // an error.
-  ns := strings.Split(string(a), " ")
-  var values []int
-  for _, s := range(ns) {
-    n, _ := strconv.Atoi(s)
-    values = append(values, n)
-  }
+  values, _ := ReadValues()
   BubbleSort(values)
   fmt.Println("Sorted list of numbers:")
   fmt.Println(values)
@@ -63,6 +51,27 @@ func BubbleSort (a []int) {
   }
 }
 
+// Swap function.
+// It simply swaps the two elements in the slice at index j.
 func Swap (a []int, j int) {
   a[j], a[j+1] = a[j+1], a[j]
+}
+
+// ReadValues function.
+// Generic function returning the read values and an error.
+func ReadValues() (values []int, err error) {
+  fmt.Println("Please input numbers(separate with space):")
+  br := bufio.NewReader(os.Stdin)
+  a, _, err := br.ReadLine() // ReadLine returns
+                             // the str containing the line,
+                             // the isPrefix attribute will be false when
+                             // returning the last fragment of the line.
+                             // an error.
+  ns := strings.Split(string(a), " ")
+  for _, s := range(ns) {
+    n, _ := strconv.Atoi(s)
+    values = append(values, n)
+  }
+
+  return values, err
 }

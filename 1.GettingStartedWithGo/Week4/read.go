@@ -61,7 +61,7 @@ var (
 
 
 // ReadTextFromConsole function.
-// Generic function taking as argument a messade to show on screen
+// Generic function taking as argument a message to show on screen
 // and returning the read input and an error.
 func ReadFromConsole (message string) (string, error) {
   reader := bufio.NewReader(os.Stdin)
