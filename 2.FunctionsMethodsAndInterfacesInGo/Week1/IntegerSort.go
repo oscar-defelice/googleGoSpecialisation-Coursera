@@ -107,7 +107,6 @@ func main () {
   algorithm := GetAlgorithm()
 
   algorithm(values)
-  fmt.Println(algorithm)
   fmt.Println("Sorted list of numbers:")
   fmt.Println(values)
 }
