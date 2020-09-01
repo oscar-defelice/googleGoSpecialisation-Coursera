@@ -45,7 +45,7 @@ Variadic functions, with a variable number of arguments are indicated by the thr
 
 _Note the typo, the routine so written produces an error. By correcting the typo (`I` -> `i`), you get the correct answer `123`._
 
-At line `7`, you assign the value $1$ to the variable `i` and print it, so the first digit is `1`.
-Then you increase the value stored in `i` by one, and you evaluate `i+1` ($=3$) and pass it to the deferred call of `Print`.
+At line `7`, you assign the value 1 to the variable `i` and print it, so the first digit is `1`.
+Then you increase the value stored in `i` by one, and you evaluate `i+1` (=3) and pass it to the deferred call of `Print`.
 At this stage the `fmt.Print(i)` is executed and so the second digit is `2`.
 Finally the deferred instruction can be executed, printint the last digit, _i.e._ `3`.
