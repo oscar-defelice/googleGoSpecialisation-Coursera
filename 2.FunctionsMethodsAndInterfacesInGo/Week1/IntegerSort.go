@@ -116,14 +116,14 @@ func main () {
 func ReadValues () (values []int, err error) {
   fmt.Println("Please input numbers(separate with space):")
   br := bufio.NewReader(os.Stdin)
-  a, _, err := br.ReadLine() // ReadLine returns
-                             // the str containing the line,
-                             // the isPrefix attribute will be false when
-                             // returning the last fragment of the line.
-                             // an error.
-  ns := strings.Split(string(a), " ")
-  for _, s := range(ns) {
-    n, _ := strconv.Atoi(s)
+  numbers, _, err := br.ReadLine() // ReadLine returns
+                                   // the str containing the line,
+                                   // the isPrefix attribute will be false when
+                                   // returning the last fragment of the line.
+                                   // an error.
+  nslice := strings.Split(string(numbers), " ")
+  for _, digit := range(nslice) {
+    n, _ := strconv.Atoi(digit)
     values = append(values, n)
   }
 
