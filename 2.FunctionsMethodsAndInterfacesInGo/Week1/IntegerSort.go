@@ -77,7 +77,7 @@ func InsertionSort (a []int) {
 // Defined as a recursive function.
 func QuickSort (a []int) {
   if len(a) < 2 {
-        os.Exit(0)
+        return
     }
     left, right := 0, len(a)-1 // Start from the extrema
 
