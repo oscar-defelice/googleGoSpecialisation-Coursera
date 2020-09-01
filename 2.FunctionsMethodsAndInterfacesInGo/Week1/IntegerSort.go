@@ -67,6 +67,7 @@ func InsertionSort (a []int) {
       if a[j-1] > a[j] {
         Swap(a, j-1)
       }
+      j -= 1
     }
   }
 }
