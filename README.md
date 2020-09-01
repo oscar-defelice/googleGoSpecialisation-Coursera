@@ -36,8 +36,7 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 
 * Week 2
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week2/QuizSolutions.md)
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/trunc.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week2/findian.go)
+	* [Programming Assignment: kinematic.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week2/kinematic.go)
 
 * Week 3
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week3/QuizSolutions.md)
