@@ -104,9 +104,6 @@ func QuickSort (a []int) {
 // The program sorts slice and prints on screen the sorted slice.
 func main () {
   values, _ := ReadValues()
-
-  fmt.Println("List of implemented algorithms: ")
-  PrintKeys(sortingAlgs)
   algorithm := GetAlgorithm()
 
   algorithm(values)
@@ -168,6 +165,10 @@ func ChooseAlgorithm(algorithm string) func([]int) {
 // and returning the corresponding function.
 func GetAlgorithm() func([]int) {
   var function func([]int)
+
+  fmt.Println("List of implemented algorithms: ")
+  PrintKeys(sortingAlgs)
+
   if algorithm, err := InputAlgorithm(); err!= nil {
     fmt.Println("\nError: ", err)
   } else {
