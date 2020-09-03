@@ -66,19 +66,19 @@ var cow, bird, snake Animal = Animal{"cow", "grass", "walk", "moo"},
 
 // Eat function
 // It prints on screen the animal food.
-func (animal Animal) Eat() {
+func (animal *Animal) Eat() {
   fmt.Printf("The %[1]s eats %[2]s", animal.name, animal.food)
 }
 
 // Move function
 // It prints on screen the animal locomotion method.
-func (animal Animal) Move() {
+func (animal *Animal) Move() {
   fmt.Printf("The %[1]s moves by %[2]s", animal.name, animal.locomotion)
 }
 
 // Speak function
 // It prints on screen the animal noise.
-func (animal Animal) Speak() {
+func (animal *Animal) Speak() {
   fmt.Printf("The %[1]s noise is %[2]s", animal.name, animal.noise)
 }
 
