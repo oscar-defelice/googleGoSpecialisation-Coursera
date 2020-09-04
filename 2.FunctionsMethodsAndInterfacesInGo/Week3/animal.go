@@ -45,6 +45,7 @@ package main
 
 import (
   "bufio"             // Library to implement buffered I/O
+  "errors"            // User defined erros package
   "fmt"               // Format library, including I/O methods
   "os"                // Interface to operating system functionality
   "strings"           // Library to manipulate strings
@@ -119,7 +120,7 @@ func ReadValues() (animalChoice string, infoChoice string, err error) {
 // assignAnimal function.
 // It takes the animal name as input and returns the corresponding animal
 // type if implemented.
-func assignAnimal (input string) (animal Animal) {
+func assignAnimal (input string) (animal Animal, err error) {
   switch input {
   case "cow":
     animal = cow
@@ -129,6 +130,7 @@ func assignAnimal (input string) (animal Animal) {
     animal = snake
   default:
    fmt.Printf("%s is not in our list of animals. Sorry.", input)
+   return cow, errors.New("Try again")
   }
   return
 }
@@ -156,8 +158,11 @@ func main() {
   for {
     animalInput, featureInput := getRequest()
 
-    animal := assignAnimal(animalInput)
-    getInfo(animal, featureInput)
+    animal, err := assignAnimal(animalInput); if err != nil {
+        continue
+    } else {
+      getInfo(animal, featureInput)
+    }
   }
 
 }
