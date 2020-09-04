@@ -9,6 +9,11 @@ A repository to collect my materials for the [GOlang specialisation on Coursera]
 The reason I would like to create this repository is purely for academic use (in case for my future use).
 I would be really glad if you can use it as a reference and happy to discuss with you about issues related with the course even further the specific course content.
 
+#### Disclaimer
+I tried to build not the most straightforward solution to programming assignments,
+this because I had fun to use as many GO features as I could.
+I hope you would enjoy, and that this would give rise to nice discussions. 
+
 **Please only use it as a reference**. The quiz and assignments are relatively easy to answer, hope you can have fun with the courses.  
 
 ### 1. Getting Started with Go
