@@ -137,15 +137,10 @@ func ReadValues() (animalChoice string, infoChoice string, err error) {
 func assignAnimal (input string) (animal Animal, err error) {
 
     if input == "new" {
-      var name, eat, move, speak string
-      fmt.Println("Please, enter name, food, locomotion method and noise of " +
-        "the new animal, separated by spaces.")
-      fmt.Scan(&name, &eat, &move, &speak)
-      animal = Animal{name, eat, move, speak}
-      animals[name] = animal
+      insertNewAnimal()
     } else {
       if animals[input].name != "" {
-        animal = animals[input]
+        animal = animals[input] // Easy case: input animal is in the map.
       } else {
           fmt.Printf("%s is not in our list of animals. Sorry." +
             " You can create it if you want.\n", input)
@@ -153,6 +148,18 @@ func assignAnimal (input string) (animal Animal, err error) {
       }
     }
   return
+}
+
+// insertNewAnimal function
+// It scans values and insert new animal in the global map animals.
+func insertNewAnimal () {
+  var name, eat, move, speak string
+  var animal Animal
+  fmt.Println("Please, enter name, food, locomotion method and noise of " +
+    "the new animal, separated by spaces.")
+  fmt.Scan(&name, &eat, &move, &speak)
+  animal = Animal{name, eat, move, speak}
+  animals[name] = animal
 }
 
 // getInfo function
