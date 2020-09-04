@@ -30,7 +30,7 @@ snake	  | mice	      | slither	          |  hsss
 /*
 
 Disclaimer: This version might not be the required solution for the
-course assignement.
+course assignment.
 
 Created by Oscar de Felice on 01/09/2020.
 Copyright © 2020 Oscar de Felice.

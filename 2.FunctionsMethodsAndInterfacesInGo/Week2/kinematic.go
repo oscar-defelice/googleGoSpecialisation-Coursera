@@ -45,7 +45,7 @@ And hence the following statement to print the displacement after 5 seconds.
 /*
 
 Disclaimer: This version might be the required solution for the
-course assignement.
+course assignment.
 
 Created by Oscar de Felice on 01/09/2020.
 Copyright © 2020 Oscar de Felice.
@@ -123,6 +123,6 @@ func main () {
 
   f := GenDisplaceFn(a, v0, s0)
 
-  fmt.Printf("\nDisplacement after %[1]v seconds is %[2]v.", t, f(t)) 
+  fmt.Printf("\nDisplacement after %[1]v seconds is %[2]v.", t, f(t))
 
 }

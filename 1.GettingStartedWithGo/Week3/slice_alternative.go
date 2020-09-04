@@ -17,7 +17,7 @@ the character ‘X’ instead of an integer.
 /*
 
 Disclaimer: This version might be the required solution for the
-course assignement.
+course assignment.
 
 Created by Oscar de Felice on 08/04/2020.
 Copyright © 2020 Oscar de Felice.

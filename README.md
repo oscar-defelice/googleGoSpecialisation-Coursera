@@ -12,7 +12,8 @@ I would be really glad if you can use it as a reference and happy to discuss wit
 #### Disclaimer
 I tried to build not the most straightforward solution to programming assignments,
 this because I had fun to use as many GO features as I could.
-I hope you would enjoy, and that this would give rise to nice discussions. 
+In some cases there are alternative solutions to the same assignment.
+I hope you would enjoy, and that this would give rise to nice discussions.
 
 **Please only use it as a reference**. The quiz and assignments are relatively easy to answer, hope you can have fun with the courses.  
 
@@ -45,12 +46,11 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 
 * Week 3
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week3/QuizSolutions.md)
-	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/slice.go)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/animal.go)
 
 * Week 4
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week4/QuizSolutions.md)
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/makejson.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/read.go)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/animal.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)

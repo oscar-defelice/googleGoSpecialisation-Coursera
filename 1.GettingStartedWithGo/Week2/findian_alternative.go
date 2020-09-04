@@ -12,7 +12,7 @@ characters are upper-case or lower-case.
 /*
 
 Disclaimer: This version is NOT the required solution for the
-course assignement.
+course assignment.
 
 I just wrote it to exercise myself on a slightly more complicated
 problem, involving multiple functions and libraries.

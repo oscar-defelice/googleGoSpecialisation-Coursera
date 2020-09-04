@@ -13,7 +13,7 @@ trunc(10.9) = 10
 /*
 
 Disclaimer: This version is NOT the required solution for the
-course assignement.
+course assignment.
 
 I just wrote it to exercise myself on a slightly more complicated
 problem, involving multiple functions and libraries.

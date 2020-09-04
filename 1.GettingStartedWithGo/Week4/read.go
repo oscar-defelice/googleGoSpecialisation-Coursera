@@ -23,7 +23,7 @@ one struct for each line in the file. After reading all lines from the file
 /*
 
 Disclaimer: This version might be the required solution for the
-course assignement.
+course assignment.
 
 Created by Oscar de Felice on 23/04/2020.
 Copyright © 2020 Oscar de Felice.
