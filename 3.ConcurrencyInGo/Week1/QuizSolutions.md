@@ -25,7 +25,7 @@ This law is not a physical law, rather it is an observation and a projection of 
 
 ![](https://user-images.githubusercontent.com/49638680/92257228-2a19cc80-eed5-11ea-9347-e372e90ea62e.png)
 
-As seen dynamic power is directly proportional to the square of the voltage swing, to the capacitance, to ration of time switching and to clock frequency.
+As seen dynamic power is directly proportional to the square of the voltage swing, to the capacitance, to ratio of time switching and to clock frequency.
 
 $$ P = \alpha C f V^2 $$
 
