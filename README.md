@@ -59,7 +59,7 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 
 	* Week 2
 		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/QuizSolutions.md)
-		* [Programming Assignment: kinematic.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/something.go)
+		* [Programming Assignment: kinematic.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/racecon.go)
 
 	* Week 3
 		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week3/QuizSolutions.md)
