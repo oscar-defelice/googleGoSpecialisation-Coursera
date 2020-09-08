@@ -230,7 +230,6 @@ func main () {
       sorted := Merge(partitions, k)
 
       fmt.Printf("Sorted numbers: %v", sorted)
-
     }
   }
 }
