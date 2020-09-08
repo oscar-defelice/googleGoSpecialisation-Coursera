@@ -53,21 +53,21 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/animal.go)
 
 ### 3. Concurrency in Go
-	* Week 1
-		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week1/QuizSolutions.md)
-		* [Weekly Assignment: Moore's Law](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week1/MooreLaw.pdf)
+* Week 1
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week1/QuizSolutions.md)
+	* [Weekly Assignment: Moore's Law](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week1/MooreLaw.pdf)
 
-	* Week 2
-		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/QuizSolutions.md)
-		* [Programming Assignment: kinematic.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/racecon.go)
+* Week 2
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/QuizSolutions.md)
+	* [Programming Assignment: kinematic.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week2/racecon.go)
 
-	* Week 3
-		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week3/QuizSolutions.md)
-		* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week3/something.go)
+* Week 3
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week3/QuizSolutions.md)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week3/something.go)
 
-	* Week 4
-		* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/QuizSolutions.md)
-		* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/something.go)
+* Week 4
+	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/QuizSolutions.md)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/something.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
