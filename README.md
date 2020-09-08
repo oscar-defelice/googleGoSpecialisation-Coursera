@@ -32,8 +32,8 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 	* [Programming Assignment: slice.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/slice.go)
 
 * Week 4
-	* [Programming Assignment: trunc.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/makejson.go)
-	* [Programming Assignment: findian.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/read.go)
+	* [Programming Assignment: makejson.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/makejson.go)
+	* [Programming Assignment: read.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/read.go)
 
 ### 2. Functions, Methods, and Interfaces in Go
 * Week 1
