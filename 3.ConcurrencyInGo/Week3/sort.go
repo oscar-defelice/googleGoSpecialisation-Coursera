@@ -212,7 +212,7 @@ func main () {
   } else {
     n_total := len(numbers)
 
-    // With four numbers or less, we do not parallelise the computing.
+    // With k numbers or less, we do not parallelise the computing.
     if n_total <= k {
       QuickSort(numbers)
       fmt.Printf("Sorted numbers: %v", numbers)
