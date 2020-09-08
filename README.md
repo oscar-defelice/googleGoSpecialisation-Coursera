@@ -46,11 +46,11 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 
 * Week 3
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week3/QuizSolutions.md)
-	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week3/animal.go)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week3/animal.go)
 
 * Week 4
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week4/QuizSolutions.md)
-	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/1.GettingStartedWithGo/Week4/animal.go)
+	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/2.FunctionsMethodsAndInterfacesInGo/Week4/animal.go)
 
 ### 3. Concurrency in Go
 * Week 1
