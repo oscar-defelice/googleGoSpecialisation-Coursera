@@ -67,7 +67,7 @@ I hope you would enjoy, and that this would give rise to nice discussions.
 
 * Week 4
 	* [Quiz](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/QuizSolutions.md)
-	* [Programming Assignment: animal.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/something.go)
+	* [Programming Assignment: philosophers.go](https://github.com/oscar-defelice/googleGoSpecialisation-Coursera/blob/master/3.ConcurrencyInGo/Week4/philosophers.go)
 
 ### Author
 Oscar de Felice: [@oscar-defelice](https://github.com/oscar-defelice)
