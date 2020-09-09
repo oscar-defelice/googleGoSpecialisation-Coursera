@@ -130,7 +130,7 @@ var names []string = []string{"Kant", "Heidegger", "Wittgenstein",
 // The host channel buffer
 var chan_buff int = 2
 
-// The max number philosophers are alowed to eat
+// The max number of times philosophers are allowed to eat
 var max_meals int = 3
 
 // Script to model the philosophers' dining problem.
