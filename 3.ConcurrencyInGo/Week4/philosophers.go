@@ -59,10 +59,12 @@ import (
 // The host is the one giving permission to eat.
 // In this implementation is the arbitrator choosing the picking order of
 // chopsticks.
-// It has one attribute: a channel to communicate with philosophers.
+// It has two attributes: a channel to communicate with philosophers and the
+// channel buffer.
 // It has just one method: Authorise.
 type Host struct {
-  channel chan *Philosopher
+  channel   chan *Philosopher
+  chan_buff int
 }
 
 // Authorise method
@@ -70,7 +72,7 @@ type Host struct {
 // The function transmit on the channel waiting for some philosopher to receive.
 func (host *Host) Authorise(wg *sync.WaitGroup) {
 	for {
-		if len(host.channel) == 2 {
+		if len(host.channel) == host.chan_buff {
 			<- host.channel
 			<- host.channel
 
@@ -140,6 +142,7 @@ func main () {
   var wg sync.WaitGroup // WaitGroup object, to wait for routines to complete
                         // tasks
   var host Host
+  host.chan_buff = chan_buff
   host.channel = make(chan *Philosopher, chan_buff)
 
   chopsticks := make([]*Chopstick, len(names))
