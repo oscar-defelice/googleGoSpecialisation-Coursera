@@ -26,63 +26,65 @@ Copyright © 2020 Oscar de Felice.
 */
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
 import (
-	"bufio"	  // Library to implement buffered I/O
-  "fmt" 		// Format library, including I/O methods
-  "log"     // Library to handle logging messages
-  "os"      // Interface to operating system functionality
-  "regexp"  // Regular expressions library
-  "strconv" // Conversion type from/to strings
-  "strings" // Library to manipulate strings
+	"bufio"   // Library to implement buffered I/O
+	"fmt"     // Format library, including I/O methods
+	"log"     // Library to handle logging messages
+	"os"      // Interface to operating system functionality
+	"regexp"  // Regular expressions library
+	"strconv" // Conversion type from/to strings
+	"strings" // Library to manipulate strings
 )
 
-// The functions return a string as readed from the console
-// input.
+// ReadTextFromConsole function.
+// The functions return a string as readed from the console input.
 // It eventually returns an error, trough an error code.
 func ReadTextFromConsole(message string) (string, error) {
-  reader := bufio.NewReader(os.Stdin)
+	reader := bufio.NewReader(os.Stdin)
 
-  fmt.Print(message)
-  text, err := reader.ReadString('\n')
+	fmt.Print(message)
+	text, err := reader.ReadString('\n')
 
-  return text, err
+	return text, err
 }
 
 var (
-    floatingNumberREGEX = regexp.MustCompile(`^(\d+)\.?(\d*)$`)
+	floatingNumberREGEX = regexp.MustCompile(`^(\d+)\.?(\d*)$`)
 ) // floating number. There is a check on the number.
-  // if the value is not a float this will cause an error.
+// if the value is not a float this will cause an error.
 
-// Truncate. Parse a FloatingNumber from a string and get the integer part.
+// Truncate function.
+// Parse a FloatingNumber from a string and get the integer part.
 func Truncate(number string) (int64, error) {
 	matched := floatingNumberREGEX.FindStringSubmatch(number)
 
 	if len(matched) == 0 { // check on the lenght of the parsed number
-			 return 0, fmt.Errorf("Error parsing: %s is not a Float", number)
-	 }
+		return 0, fmt.Errorf("Error parsing: %s is not a Float", number)
+	}
 
-	 return strconv.ParseInt(matched[1], 10, 64)
+	return strconv.ParseInt(matched[1], 10, 64)
 }
 
 // Script to read a floating point number,
 // to calculate its truncation and print it on screen.
 func main() {
-  var err error
+	var err error
 
 	number, err := ReadTextFromConsole("floating point number: ")
 
 	if err != nil {
-  	log.Fatal("Error reading text from console: ", err)
-  } else {
-      var integer, err = Truncate(strings.Trim(number, "\n"))
+		log.Fatal("Error reading text from console: ", err)
+	} else {
+		var integer, err = Truncate(strings.Trim(number, "\n"))
 
-      if err != nil {
-          log.Fatal("Error parsing FloatingNumber: ", err)
-      } else {
-          fmt.Println(fmt.Sprintf("Truncated Integer: %d", integer))
-      }
-  }
+		if err != nil {
+			log.Fatal("Error parsing FloatingNumber: ", err)
+		} else {
+			fmt.Println(fmt.Sprintf("Truncated Integer: %d", integer))
+		}
+	}
 }

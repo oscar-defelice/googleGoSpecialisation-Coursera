@@ -33,17 +33,18 @@ Copyright © 2020 Oscar de Felice.
 */
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
-import(
-  "bufio"         // Library to implement buffered I/O
-  "fmt"           // Format library, including I/O methods
-  "os"            // Interface to operating system functionality
-	"regexp"        // Regular expressions library
-  "strconv"       // Conversion type from/to strings
-  "strings"       // Library to manipulate strings
- )
+import (
+	"bufio"   // Library to implement buffered I/O
+	"fmt"     // Format library, including I/O methods
+	"os"      // Interface to operating system functionality
+	"regexp"  // Regular expressions library
+	"strconv" // Conversion type from/to strings
+	"strings" // Library to manipulate strings
+)
 
 // Define a name structure.
 // The names read from file will be stored in a
@@ -56,20 +57,19 @@ type name struct {
 // integer number. There is a check on the number.
 // if the value is not an integer this will cause an error.
 var (
-    integerNumberREGEX = regexp.MustCompile(`^(\d+)\.?(\d*)$`)
+	integerNumberREGEX = regexp.MustCompile(`^(\d+)\.?(\d*)$`)
 )
 
-
-// ReadTextFromConsole function.
+// ReadFromConsole function.
 // Generic function taking as argument a message to show on screen
 // and returning the read input and an error.
-func ReadFromConsole (message string) (string, error) {
-  reader := bufio.NewReader(os.Stdin)
+func ReadFromConsole(message string) (string, error) {
+	reader := bufio.NewReader(os.Stdin)
 
-  fmt.Print(message)
-  text, err := reader.ReadString('\n')
+	fmt.Print(message)
+	text, err := reader.ReadString('\n')
 
-  return text, err
+	return text, err
 }
 
 // inputFilename function
@@ -77,7 +77,7 @@ func ReadFromConsole (message string) (string, error) {
 // a string, which is returned.
 // Using buffer reader allows both name and
 // address to contain SPACE characters.
-func inputFilename () (filename string) {
+func inputFilename() (filename string) {
 
 	for {
 		if name, err := ReadFromConsole("Please enter the filename: "); err != nil {
@@ -91,7 +91,7 @@ func inputFilename () (filename string) {
 	return
 }
 
-func inputMaxLen () (int, error) {
+func inputMaxLen() (int, error) {
 
 	for {
 
@@ -103,7 +103,7 @@ func inputMaxLen () (int, error) {
 			match := integerNumberREGEX.FindStringSubmatch(maxLenStr)
 
 			if len(match) == 0 { // check on the lenght of the parsed number
-					 return 0, fmt.Errorf("Error parsing: %s is not an integer", maxLenStr)
+				return 0, fmt.Errorf("Error parsing: %s is not an integer", maxLenStr)
 			} else {
 				maxLen, err := strconv.Atoi(match[1])
 				return maxLen, err
@@ -114,28 +114,29 @@ func inputMaxLen () (int, error) {
 
 // RemoveSpecialReturn returns a copy of the input string
 // with removed '\n' or '\r' special characters.
-func RemoveSpecialReturn (s string) string {
-  var newline string = "\n"
-  var cabret string = "\r"
+func RemoveSpecialReturn(s string) string {
+	var newline = "\n"
+	var cabret = "\r"
 
-  if strings.HasSuffix(s, newline) {
+	if strings.HasSuffix(s, newline) {
 		s = strings.TrimSuffix(s, newline)
 	}
 	if strings.HasSuffix(s, cabret) {
 		s = strings.TrimSuffix(s, cabret)
 	}
 
-  return s
+	return s
 }
 
 // Cut the string if the name is too long
-func fixLongName(buffer string, maxLen int) string {
+func fixLongName(buffer string, maxLen int) (name string) {
 
-    if len(buffer) > maxLen {
-       return string(buffer[0:maxLen])
-    } else {
-       return buffer
-    }
+	if len(buffer) > maxLen {
+		name := string(buffer[0:maxLen])
+	} else {
+		name := buffer
+	}
+	return
 }
 
 // runeToName function.
@@ -143,7 +144,7 @@ func fixLongName(buffer string, maxLen int) string {
 // in a name structure.
 // If first name and last name are longer then maxLen, they
 // are truncated.
-func runeToName (fname string, lname string, maxLen int) name {
+func runeToName(fname string, lname string, maxLen int) name {
 	var nameFromLine name
 
 	nameFromLine.fname = fixLongName(fname, maxLen)
@@ -154,7 +155,7 @@ func runeToName (fname string, lname string, maxLen int) name {
 
 // ReadAndStore function
 // This reads data from file and returns the slice of name structures.
-func ReadAndStore (filename string, maxLen int) (names []name) {
+func ReadAndStore(filename string, maxLen int) (names []name) {
 
 	if file, err := os.Open(filename); err != nil {
 		fmt.Println("Error while opening the file: ", err)
@@ -182,17 +183,17 @@ func ReadAndStore (filename string, maxLen int) (names []name) {
 	return names
 }
 
-func main () {
+func main() {
 	filename := inputFilename()
 	maxLen, err := inputMaxLen()
 
 	names := ReadAndStore(filename, maxLen)
 
 	if err != nil {
-			fmt.Println("Error while reading maxLen: ", err)
-		} else {
-			fmt.Printf("\nNames slice (maxLen of %d characters)\n", maxLen)
-		}
+		fmt.Println("Error while reading maxLen: ", err)
+	} else {
+		fmt.Printf("\nNames slice (maxLen of %d characters)\n", maxLen)
+	}
 
 	for index := 0; index < len(names); index++ {
 		fmt.Println("Name:", string(names[index].fname[:]))

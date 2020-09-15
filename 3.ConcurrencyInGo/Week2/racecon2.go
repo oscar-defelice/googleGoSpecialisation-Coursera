@@ -26,12 +26,13 @@ Copyright © 2020 Oscar de Felice.
 // This randomness in output proves there is a race condition.
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
 import (
-  "fmt"               // Format library, including I/O methods
-  "time"              // Package providing functionality for handling time.
+	"fmt"  // Format library, including I/O methods
+	"time" // Package providing functionality for handling time.
 )
 
 // f function
@@ -39,21 +40,21 @@ import (
 // Since we plan to use the function in a goroutine, we added a sleep time
 // to prevent program termination before goroutines return.
 func f(s string) {
-    for _, c := range s {
-        fmt.Print(string(c), " ")
-        time.Sleep(10 * time.Millisecond)
-    }
+	for _, c := range s {
+		fmt.Print(string(c), " ")
+		time.Sleep(10 * time.Millisecond)
+	}
 }
 
 // Script containing two goroutines.
 // One goroutine prints elements of one string.
 // The other one prints another strings.
 // This to show we will have a shuffle of the two strings.
-func main () {
-  // run two different goroutine
-  go f("Hello")
-  go f("World")
+func main() {
+	// run two different goroutine
+	go f("Hello")
+	go f("World")
 
-  // prevent program termination before goroutines return
+	// prevent program termination before goroutines return
 	time.Sleep(1 * time.Second)
 }

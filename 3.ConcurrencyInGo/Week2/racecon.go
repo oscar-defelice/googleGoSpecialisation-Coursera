@@ -31,12 +31,13 @@ Copyright © 2020 Oscar de Felice.
 // This randomness in output proves there is a race condition.
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
 import (
-  "fmt"               // Format library, including I/O methods
-  "time"              // Package providing functionality for handling time.
+	"fmt"  // Format library, including I/O methods
+	"time" // Package providing functionality for handling time.
 )
 
 var x int
@@ -44,15 +45,15 @@ var x int
 // Script containing two goroutines.
 // One goroutine implements an increment of the variable.
 // The other one prints the value of the variable on screen.
-func main () {
-  go func() {
-    x += 1
-  }()
+func main() {
+	go func() {
+		x++
+	}()
 
-  go func() {
-    fmt.Println("Value of x: ", x)
-  }()
+	go func() {
+		fmt.Println("Value of x: ", x)
+	}()
 
-  // prevent program termination before goroutines return
+	// prevent program termination before goroutines return
 	time.Sleep(1 * time.Second)
 }

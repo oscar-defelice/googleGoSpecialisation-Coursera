@@ -11,10 +11,10 @@ characters are upper-case or lower-case.
 
 package main
 
-import(
-    "fmt"
-    "strings"
-  )
+import (
+	"fmt"
+	"strings"
+)
 
 // Script to read a string from command line.
 // It searches for the substrings 'i', 'a', 'n'
@@ -24,21 +24,21 @@ import(
 // The script is not case-sensitive.
 func main() {
 	var str string
-  var prefix, suffix string = "i", "n"
-  var inner string = "a"
+	var prefix, suffix string = "i", "n"
+	var inner = "a"
 
 	fmt.Println("Please, enter a string: ")
 	fmt.Scan(&str)
 
-  str = strings.ToLower(str) // transform the string all in lowercase.
+	str = strings.ToLower(str) // transform the string all in lowercase.
 
-  condPre := strings.HasPrefix(str, prefix)
-  condSuf := strings.HasSuffix(str, suffix)
-  condCon := strings.Contains(str, inner)
+	condPre := strings.HasPrefix(str, prefix)
+	condSuf := strings.HasSuffix(str, suffix)
+	condCon := strings.Contains(str, inner)
 
-  if condPre && condSuf && condCon {
-    fmt.Println("Found!")
-  } else {
-    fmt.Println("Not Found!")
-  }
+	if condPre && condSuf && condCon {
+		fmt.Println("Found!")
+	} else {
+		fmt.Println("Not Found!")
+	}
 }

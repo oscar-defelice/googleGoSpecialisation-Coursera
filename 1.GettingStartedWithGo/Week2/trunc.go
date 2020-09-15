@@ -11,11 +11,12 @@ trunc(10.9) = 10
 */
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
 import (
-	"fmt" 		// Format library, including I/O methods
+	"fmt" // Format library, including I/O methods
 )
 
 // Script to read a floating point number,

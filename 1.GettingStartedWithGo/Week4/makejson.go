@@ -20,16 +20,17 @@ Copyright © 2020 Oscar de Felice.
 */
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
-import(
-  "bufio"         // Library to implement buffered I/O
-  "fmt"           // Format library, including I/O methods
-  "os"            // Interface to operating system functionality
-  "encoding/json" // Package to implement encoding and decoding of JSON
-  "strings"       // Library to manipulate strings
- )
+import (
+	"bufio"         // Library to implement buffered I/O
+	"encoding/json" // Package to implement encoding and decoding of JSON
+	"fmt"           // Format library, including I/O methods
+	"os"            // Interface to operating system functionality
+	"strings"       // Library to manipulate strings
+)
 
 // Create the Person variable of type map[string]string
 // To allocate "name" and "address".
@@ -39,18 +40,18 @@ type Person map[string]string
 
 // RemoveSpecialReturn returns a copy of the input string
 // with removed '\n' or '\r' special characters.
-func RemoveSpecialReturn (s string) string {
-  var newline string = "\n"
-  var cabret string = "\r"
+func RemoveSpecialReturn(s string) string {
+	var newline = "\n"
+	var cabret = "\r"
 
-  if strings.HasSuffix(s, newline) {
+	if strings.HasSuffix(s, newline) {
 		s = strings.TrimSuffix(s, newline)
 	}
 	if strings.HasSuffix(s, cabret) {
 		s = strings.TrimSuffix(s, cabret)
 	}
 
-  return s
+	return s
 }
 
 // inputPersonData function
@@ -92,7 +93,7 @@ func inputPersonData() Person {
 // Finally the JSON is printed.
 // no return statement.
 func marshJSON(person Person) {
-  if data, err := json.Marshal(person); err != nil {
+	if data, err := json.Marshal(person); err != nil {
 		fmt.Println("\nError in serializing to JSON: ", err)
 	} else {
 		fmt.Println("\nJSON:", string(data))
@@ -103,8 +104,8 @@ func marshJSON(person Person) {
 // It calls the inputPersonData function to read
 // data and hence store them in a JSON.
 // It calls the marshJSON function to store and print data.
-func main(){
-  person := inputPersonData()
+func main() {
+	person := inputPersonData()
 
-  marshJSON(person)
+	marshJSON(person)
 }

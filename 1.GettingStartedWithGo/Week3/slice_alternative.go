@@ -27,6 +27,7 @@ Copyright © 2020 Oscar de Felice.
 */
 
 package main
+
 // Compulsory package,
 // the only one generating an executable
 
@@ -41,7 +42,7 @@ import (
 // The program prints on screen the sorted slice.
 // It keeps going until the user enters X to exit.
 func main() {
-	storage := make([]int, 3)  // create an empty integer slice of size (length) 3
+	storage := make([]int, 3) // create an empty integer slice of size (length) 3
 	var input string
 	counter := 0
 	for {
