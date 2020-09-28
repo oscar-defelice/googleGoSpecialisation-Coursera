@@ -159,7 +159,7 @@ func main() {
     animalInput, featureInput := getRequest()
 
     animal, err := assignAnimal(animalInput); if err != nil {
-        fmt.Println("Error. " err)
+        fmt.Println("Error. ", err)
         continue
     } else {
       getInfo(animal, featureInput)
