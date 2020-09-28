@@ -24,6 +24,8 @@ Simply a function with no explicit name.
 
 The function `fA` takes as argument the function `fB` (whose properties we can neglect for this question) and returns another function whose argument is a string and returns an integer.
 
+_Note_: This question will be marked as incorrect as there is a mistake in Coursera quiz. (Many others and) I reported this both in Coursera contact form than in weekly discussion forums, but at the moment no one corrected this.
+
 5. What does the above code print on the screen?
 
 ![](https://user-images.githubusercontent.com/49638680/91836316-e14ee300-ec4a-11ea-84b6-dcad28f09bfb.png)
