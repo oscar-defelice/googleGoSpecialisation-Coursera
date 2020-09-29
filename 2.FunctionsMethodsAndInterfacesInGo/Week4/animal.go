@@ -165,7 +165,7 @@ func insertNewAnimal () {
 // getInfo function
 // It takes the animal as input and returns the corresponding animal
 // info if implemented.
-func getInfo (animal Animal, input string)  {
+func getInfo (animal animalInterface, input string)  {
   switch input {
   case "eat":
     animal.Eat()
